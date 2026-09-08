@@ -139,7 +139,7 @@ int main()
 
 
 
-	cout << "1" << endl;
+	/*cout << "1" << endl;
 	
 
 	int N = 11;
@@ -319,7 +319,111 @@ int main()
 				cout << "  ";
 		}
 		cout << endl;
+	}*/
+	
+	cout << "Home work 1"<< endl;
+
+	int number;
+	int choice;
+	
+	cout << "Please enter a multi-digit number." << endl;
+	cin >> number;
+
+	cout << "1 - Number of digits " << endl;
+	cout << "2 - Sum " << endl;
+	cout << "3 - Average value  " << endl;
+	cout << "4 - Number of zero " << endl;
+
+	cout << "Enter your choice: " << endl;
+	cin >> choice;
+
+	int count = 0;
+	int sum = 0;
+	int zero = 0;
+
+	while (number !=0)
+	{
+		int digit = number % 10;
+		count++;
+
+		sum += digit;
+
+		if (digit == 0)
+			zero++;
+
+		number = number / 10;
 	}
+	switch (choice)
+	{
+		case 1:
+			cout << "Number of digits: "<< count << endl;
+			break;
+		case 2:
+			cout << "Sum: "<< sum << endl;
+			break;
+		case 3:
+			cout << "Average value: "<< (double)sum/ count << endl;
+			break;
+		case 4:
+			cout << "Number of zero: "<< zero << endl;
+			break;
+		default:
+			cout << "Invalid input! " << endl;
+
+	}
+
+	cout << endl;
+	cout << "Home work 2" << endl;
+	cout <<  endl;
+	
+
+	int a =3;
+	//cout << "Enter the cell size: ";
+	//cin >> a;
+
+	for (int i = 0; i < 2 *a ; i++)
+	{
+		for (int j = 0; j < 5*a; j++)
+		{
+			if ((i / a + j / a) % 2 == 0)
+				cout << "*";
+			else
+				cout << "-";			
+		}
+		cout << endl;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
 	
 
 

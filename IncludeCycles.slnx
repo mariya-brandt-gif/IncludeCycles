@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="IncludeCycles/IncludeCycles.vcxproj" />
+  <Project Path="IncludeCycles/IncludeCycles.vcxproj" Id="c5452b95-f031-493f-a158-e6cff5cf9390" />
 </Solution>
