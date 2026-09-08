@@ -139,7 +139,7 @@ int main()
 
 
 
-	/*cout << "1" << endl;
+	cout << "1" << endl;
 	
 
 	int N = 11;
@@ -319,7 +319,7 @@ int main()
 				cout << "  ";
 		}
 		cout << endl;
-	}*/
+	}
 	
 	cout << "Home work 1"<< endl;
 
